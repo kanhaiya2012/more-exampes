@@ -25,7 +25,7 @@ from pepipost.models.settings import Settings
 from pepipost.exceptions.api_exception import APIException
 import jsonpickle
 
-api_key = '304b54cbda55828c0a34070ed7b626d5'
+api_key = 'your api_key here'
 
 client = PepipostClient(api_key)
 
@@ -34,8 +34,8 @@ client = PepipostClient(api_key)
 send_controller = client.send
 body = Send()
 body.mfrom = From()
-body.mfrom.email = 'schedulett1@netqatest.xyz'
-body.mfrom.name = 'schedulett1'
+body.mfrom.email = 'hello@your-register-domain-with-pepipost'
+body.mfrom.name = 'Example Pepi'
 body.subject = 'schedulett1 [%NAME%] [%SURNAME%] [%PROFESSION%] [%AREA%]'
 body.template_id = 0
 body.content = []
@@ -64,18 +64,18 @@ body.personalizations[0].attachments[0].name = 'zip2.zip'
 body.personalizations[0].to = []
 
 body.personalizations[0].to.append(EmailStruct())
-body.personalizations[0].to[0].name = 'archana1'
-body.personalizations[0].to[0].email = 'kanhaiya.pal@gmail.com'
+body.personalizations[0].to[0].name = 'random'
+body.personalizations[0].to[0].email = 'random@gmail.com'
 
 body.personalizations[0].cc = []
 
 body.personalizations[0].cc.append(EmailStruct())
-body.personalizations[0].cc[0].email = 'kanhaiya.pal@gmail.com'
+body.personalizations[0].cc[0].email = 'random@gmail.com'
 
 body.personalizations[0].bcc = []
 
 body.personalizations[0].bcc.append(EmailStruct())
-body.personalizations[0].bcc[0].email = 'kanhaiya.pal@gmail.com'
+body.personalizations[0].bcc[0].email = 'random@gmail.com'
 
 body.personalizations[0].token_to = '{"tokenTo1_key": "tokenTo1_value"}'
 body.personalizations[0].token_cc = '{"tokencc1_key": "tokencc1_value"}'
@@ -91,7 +91,7 @@ body.schedule = 0
 body.bcc = []
 
 body.bcc.append(EmailStruct())
-body.bcc[0].email = 'kanhaiya.pal@gmail.com'
+body.bcc[0].email = 'random@gmail.com'
 
 
 try:
@@ -118,7 +118,7 @@ from pepipost.models.settings import Settings
 from pepipost.exceptions.api_exception import APIException
 import jsonpickle
 
-api_key = '304b54cbda55828c0a34070ed7b626d5'
+api_key = 'your api_key here'
 
 client = PepipostClient(api_key)
 
@@ -127,8 +127,8 @@ client = PepipostClient(api_key)
 send_controller = client.send
 body = Send()
 body.mfrom = From()
-body.mfrom.email = 'Finalcheck4@netqatest.xyz'
-body.mfrom.name = 'Finalcheck4'
+body.mfrom.email = 'hello@your-register-domain-with-pepipost'
+body.mfrom.name = 'Example Pepi'
 body.subject = 'Finalcheck4 [%NAME%] [%SURNAME%] [%PROFESSION%] [%AREA%]'
 body.content = []
 
@@ -150,22 +150,22 @@ body.personalizations[0].headers = jsonpickle.decode('{"header1_key":"header1_va
 body.personalizations[0].to = []
 
 body.personalizations[0].to.append(EmailStruct())
-body.personalizations[0].to[0].name = 'archana1'
-body.personalizations[0].to[0].email = 'kanhaiya.pal@gmail.com'
+body.personalizations[0].to[0].name = 'random'
+body.personalizations[0].to[0].email = 'random@gmail.com'
 
 body.personalizations[0].to.append(EmailStruct())
-body.personalizations[0].to[1].name = 'archana2'
-body.personalizations[0].to[1].email = 'kanhaiya.pal@gmail.com'
+body.personalizations[0].to[1].name = 'random'
+body.personalizations[0].to[1].email = 'random@gmail.com'
 
 body.personalizations[0].cc = []
 
 body.personalizations[0].cc.append(EmailStruct())
-body.personalizations[0].cc[0].email = 'kanhaiya.pal@gmail.com'
+body.personalizations[0].cc[0].email = 'random@gmail.com'
 
 body.personalizations[0].bcc = []
 
 body.personalizations[0].bcc.append(EmailStruct())
-body.personalizations[0].bcc[0].email = 'kanhaiya.pal@gmail.com'
+body.personalizations[0].bcc[0].email = 'random@gmail.com'
 
 body.personalizations[0].token_to = '{"tokenTo1_key": "tokenTo1_value","tokenTo2_key": "tokenTo2_value"}'
 body.personalizations[0].token_cc = '{"tokencc1_key": "tokencc1_value","tokencc2_key": "tokencc2_value"}'
@@ -181,7 +181,7 @@ body.schedule = 0
 body.bcc = []
 
 body.bcc.append(EmailStruct())
-body.bcc[0].email = 'kanhaiya.pal@gmail.com'
+body.bcc[0].email = 'random@gmail.com'
 
 
 try:
@@ -208,7 +208,7 @@ from pepipost.models.settings import Settings
 from pepipost.exceptions.api_exception import APIException
 import jsonpickle
 
-api_key = '304b54cbda55828c0a34070ed7b626d5'
+api_key = 'your api_key here'
 
 client = PepipostClient(api_key)
 
@@ -217,10 +217,10 @@ client = PepipostClient(api_key)
 send_controller = client.send
 body = Send()
 body.mfrom = From()
-body.mfrom.email = 'livekatest1@netqatest.xyz'
-body.mfrom.name = 'livekatest1'
+body.mfrom.email = 'hello@your-register-domain-with-pepipost'
+body.mfrom.name = 'Example Pepi'
 body.subject = 'livekatest1 [%NAME%] [%SURNAME%] [%PROFESSION%] [%AREA%]'
-body.template_id = 22299
+body.template_id = 0
 body.content = []
 
 body.content.append(Content())
@@ -247,22 +247,22 @@ body.personalizations[0].attachments[0].name = 'ipad.png'
 body.personalizations[0].to = []
 
 body.personalizations[0].to.append(EmailStruct())
-body.personalizations[0].to[0].name = 'archana1'
-body.personalizations[0].to[0].email = 'ttesttry758@gmail.com'
+body.personalizations[0].to[0].name = 'random'
+body.personalizations[0].to[0].email = 'random@gmail.com'
 
 body.personalizations[0].to.append(EmailStruct())
-body.personalizations[0].to[1].name = 'archana2'
-body.personalizations[0].to[1].email = 'testartstar@rediffmail.com'
+body.personalizations[0].to[1].name = 'random'
+body.personalizations[0].to[1].email = 'random@gmail.com'
 
 body.personalizations[0].cc = []
 
 body.personalizations[0].cc.append(EmailStruct())
-body.personalizations[0].cc[0].email = 'testartstar1@gmail.com'
+body.personalizations[0].cc[0].email = 'random@gmail.com'
 
 body.personalizations[0].bcc = []
 
 body.personalizations[0].bcc.append(EmailStruct())
-body.personalizations[0].bcc[0].email = 'testartstar2@gmail.com'
+body.personalizations[0].bcc[0].email = 'random@gmail.com'
 
 body.personalizations[0].token_to = '{"tokenTo1_key": "tokenTo1_value","tokenTo2_key": "tokenTo2_value"}'
 body.personalizations[0].token_cc = '{"tokencc1_key": "tokencc1_value","tokencc2_key": "tokencc2_value"}'
@@ -280,22 +280,22 @@ body.personalizations[1].attachments[0].name = 'zip2.zip'
 body.personalizations[1].to = []
 
 body.personalizations[1].to.append(EmailStruct())
-body.personalizations[1].to[0].name = 'archana3'
-body.personalizations[1].to[0].email = 'testartstar@yahoo.com'
+body.personalizations[1].to[0].name = 'random'
+body.personalizations[1].to[0].email = 'random@gmail.com'
 
 body.personalizations[1].to.append(EmailStruct())
-body.personalizations[1].to[1].name = 'archana4'
-body.personalizations[1].to[1].email = 'testartstar@outlook.com'
+body.personalizations[1].to[1].name = 'random'
+body.personalizations[1].to[1].email = 'random@gmail.com'
 
 body.personalizations[1].cc = []
 
 body.personalizations[1].cc.append(EmailStruct())
-body.personalizations[1].cc[0].email = 'testartstar@gmail.com'
+body.personalizations[1].cc[0].email = 'random@gmail.com'
 
 body.personalizations[1].bcc = []
 
 body.personalizations[1].bcc.append(EmailStruct())
-body.personalizations[1].bcc[0].email = 'testartstar2@gmail.com'
+body.personalizations[1].bcc[0].email = 'random@gmail.com'
 
 body.personalizations[1].token_to = '{"tokenTo3_key": "tokenTo3_value","tokenTo4_key": "tokenTo4_value"}'
 body.personalizations[1].token_cc = '{"tokencc5_key": "tokencc5_value","tokencc6_key": "tokencc6_value"}'
@@ -311,7 +311,7 @@ body.schedule = 0
 body.bcc = []
 
 body.bcc.append(EmailStruct())
-body.bcc[0].email = 'archanapan2077@gmail.com'
+body.bcc[0].email = 'random@gmail.com'
 
 
 try:
@@ -337,7 +337,7 @@ from pepipost.models.settings import Settings
 from pepipost.exceptions.api_exception import APIException
 import jsonpickle
 
-api_key = '19647c1e88ecf4a81ed90e9667344705'
+api_key = 'your api_key here'
 
 client = PepipostClient(api_key)
 
@@ -346,8 +346,8 @@ client = PepipostClient(api_key)
 send_controller = client.send
 body = Send()
 body.mfrom = From()
-body.mfrom.email = 'livekatest2@pepitest.xyz'
-body.mfrom.name = 'livekatest2'
+body.mfrom.email = 'hello@your-register-domain-with-pepipost'
+body.mfrom.name = 'Example Pepi'
 body.subject = 'livekatest2 [%NAME%] [%SURNAME%] [%PROFESSION%] [%AREA%]'
 body.template_id = 0
 body.content = []
@@ -376,22 +376,22 @@ body.personalizations[0].attachments[0].name = 'ipad.png'
 body.personalizations[0].to = []
 
 body.personalizations[0].to.append(EmailStruct())
-body.personalizations[0].to[0].name = 'archana1'
-body.personalizations[0].to[0].email = 'kanhaiya.pal@gmail.com'
+body.personalizations[0].to[0].name = 'random'
+body.personalizations[0].to[0].email = 'random@gmail.com'
 
 body.personalizations[0].to.append(EmailStruct())
-body.personalizations[0].to[1].name = 'archana2'
-body.personalizations[0].to[1].email = 'kanhaiya.pal@gmail.com'
+body.personalizations[0].to[1].name = 'random'
+body.personalizations[0].to[1].email = 'random@gmail.com'
 
 body.personalizations[0].cc = []
 
 body.personalizations[0].cc.append(EmailStruct())
-body.personalizations[0].cc[0].email = 'kanhaiya.pal@gmail.com'
+body.personalizations[0].cc[0].email = 'random@gmail.com'
 
 body.personalizations[0].bcc = []
 
 body.personalizations[0].bcc.append(EmailStruct())
-body.personalizations[0].bcc[0].email = 'kanhaiya.pal@gmail.com'
+body.personalizations[0].bcc[0].email = 'random@gmail.com'
 
 body.personalizations[0].token_to = '{"tokenTo1_key": "tokenTo1_value","tokenTo2_key": "tokenTo2_value"}'
 body.personalizations[0].token_cc = '{"tokencc1_key": "tokencc1_value","tokencc2_key": "tokencc2_value"}'
@@ -409,18 +409,18 @@ body.personalizations[1].attachments[0].name = 'zip2.zip'
 body.personalizations[1].to = []
 
 body.personalizations[1].to.append(EmailStruct())
-body.personalizations[1].to[0].name = 'archana4'
-body.personalizations[1].to[0].email = 'kanhaiya.pal@outlook.com'
+body.personalizations[1].to[0].name = 'random'
+body.personalizations[1].to[0].email = 'random@gmail.com'
 
 body.personalizations[1].cc = []
 
 body.personalizations[1].cc.append(EmailStruct())
-body.personalizations[1].cc[0].email = 'kanhaiya.pal@rediffmail.com'
+body.personalizations[1].cc[0].email = 'random@gmail.com'
 
 body.personalizations[1].bcc = []
 
 body.personalizations[1].bcc.append(EmailStruct())
-body.personalizations[1].bcc[0].email = 'kanhaiya.pal@gmail.com'
+body.personalizations[1].bcc[0].email = 'random@gmail.com'
 
 body.personalizations[1].token_to = '{"tokenTo3_key": "tokenTo3_value","tokenTo4_key": "tokenTo4_value"}'
 body.personalizations[1].token_cc = '{"tokencc3_key": "tokencc3_value","tokencc4_key": "tokencc4_value"}'
@@ -438,18 +438,18 @@ body.personalizations[2].attachments[0].name = 'zip2.zip'
 body.personalizations[2].to = []
 
 body.personalizations[2].to.append(EmailStruct())
-body.personalizations[2].to[0].name = 'archana3'
-body.personalizations[2].to[0].email = 'kanhaiya.pal@yahoo.com'
+body.personalizations[2].to[0].name = 'random'
+body.personalizations[2].to[0].email = 'random@yahoo.com'
 
 body.personalizations[2].cc = []
 
 body.personalizations[2].cc.append(EmailStruct())
-body.personalizations[2].cc[0].email = 'kanhaiya.pal@rediffmail.com'
+body.personalizations[2].cc[0].email = 'random@gmail.com'
 
 body.personalizations[2].bcc = []
 
 body.personalizations[2].bcc.append(EmailStruct())
-body.personalizations[2].bcc[0].email = 'kanhaiya.pal@gmail.com'
+body.personalizations[2].bcc[0].email = 'random@gmail.com'
 
 body.personalizations[2].token_to = '{"tokenTo5_key": "tokenTo5_value","tokenTo6_key": "tokenTo6_value"}'
 body.personalizations[2].token_cc = '{"tokencc5_key": "tokencc5_value","tokencc6_key": "tokencc6_value"}'
@@ -467,18 +467,18 @@ body.personalizations[3].attachments[0].name = 'zip2.zip'
 body.personalizations[3].to = []
 
 body.personalizations[3].to.append(EmailStruct())
-body.personalizations[3].to[0].name = 'archana4'
-body.personalizations[3].to[0].email = 'kanhaiya.pal@outlook.com'
+body.personalizations[3].to[0].name = 'random'
+body.personalizations[3].to[0].email = 'random@gmail.com'
 
 body.personalizations[3].cc = []
 
 body.personalizations[3].cc.append(EmailStruct())
-body.personalizations[3].cc[0].email = 'kanhaiya.pal@rediffmail.com'
+body.personalizations[3].cc[0].email = 'random@gmail.com'
 
 body.personalizations[3].bcc = []
 
 body.personalizations[3].bcc.append(EmailStruct())
-body.personalizations[3].bcc[0].email = 'kanhaiya.pal@gmail.com'
+body.personalizations[3].bcc[0].email = 'random@gmail.com'
 
 body.personalizations[3].token_to = '{"tokenTo7_key": "tokenTo7_value","tokenTo8_key": "tokenTo8_value"}'
 body.personalizations[3].token_cc = '{"tokencc7_key": "tokencc7_value","tokencc8_key": "tokencc8_value"}'
@@ -496,22 +496,22 @@ body.personalizations[4].attachments[0].name = 'ipad.png'
 body.personalizations[4].to = []
 
 body.personalizations[4].to.append(EmailStruct())
-body.personalizations[4].to[0].name = 'archana1'
-body.personalizations[4].to[0].email = 'kanhaiya.pal@gmail.com'
+body.personalizations[4].to[0].name = 'random'
+body.personalizations[4].to[0].email = 'random@gmail.com'
 
 body.personalizations[4].to.append(EmailStruct())
-body.personalizations[4].to[1].name = 'archana2'
-body.personalizations[4].to[1].email = 'kanhaiya.pal@gmail.com'
+body.personalizations[4].to[1].name = 'random'
+body.personalizations[4].to[1].email = 'random@gmail.com'
 
 body.personalizations[4].cc = []
 
 body.personalizations[4].cc.append(EmailStruct())
-body.personalizations[4].cc[0].email = 'kanhaiya.pal@gmail.com'
+body.personalizations[4].cc[0].email = 'random@gmail.com'
 
 body.personalizations[4].bcc = []
 
 body.personalizations[4].bcc.append(EmailStruct())
-body.personalizations[4].bcc[0].email = 'kanhaiya.pal@gmail.com'
+body.personalizations[4].bcc[0].email = 'random@gmail.com'
 
 body.personalizations[4].token_to = '{"tokenTo9_key": "tokenTo9_value","tokenTo10_key": "tokenTo10_value"}'
 body.personalizations[4].token_cc = '{"tokencc9_key": "tokencc9_value","tokencc10_key": "tokencc10_value"}'
@@ -529,18 +529,18 @@ body.personalizations[5].attachments[0].name = 'zip2.zip'
 body.personalizations[5].to = []
 
 body.personalizations[5].to.append(EmailStruct())
-body.personalizations[5].to[0].name = 'archana4'
-body.personalizations[5].to[0].email = 'kanhaiya.pal@outlook.com'
+body.personalizations[5].to[0].name = 'random'
+body.personalizations[5].to[0].email = 'random@gmail.com'
 
 body.personalizations[5].cc = []
 
 body.personalizations[5].cc.append(EmailStruct())
-body.personalizations[5].cc[0].email = 'kanhaiya.pal@rediffmail.com'
+body.personalizations[5].cc[0].email = 'random@gmail.com'
 
 body.personalizations[5].bcc = []
 
 body.personalizations[5].bcc.append(EmailStruct())
-body.personalizations[5].bcc[0].email = 'kanhaiya.pal@gmail.com'
+body.personalizations[5].bcc[0].email = 'random@gmail.com'
 
 body.personalizations[5].token_to = '{"tokenTo11_key": "tokenTo11_value","tokenTo12_key": "tokenTo12_value"}'
 body.personalizations[5].token_cc = '{"tokencc11_key": "tokencc11_value","tokencc12_key": "tokencc12_value"}'
@@ -558,18 +558,18 @@ body.personalizations[6].attachments[0].name = 'zip2.zip'
 body.personalizations[6].to = []
 
 body.personalizations[6].to.append(EmailStruct())
-body.personalizations[6].to[0].name = 'archana3'
-body.personalizations[6].to[0].email = 'kanhaiya.pal@yahoo.com'
+body.personalizations[6].to[0].name = 'random'
+body.personalizations[6].to[0].email = 'random@gmail.com'
 
 body.personalizations[6].cc = []
 
 body.personalizations[6].cc.append(EmailStruct())
-body.personalizations[6].cc[0].email = 'kanhaiya.pal@rediffmail.com'
+body.personalizations[6].cc[0].email = 'random@gmail.com'
 
 body.personalizations[6].bcc = []
 
 body.personalizations[6].bcc.append(EmailStruct())
-body.personalizations[6].bcc[0].email = 'kanhaiya.pal@gmail.com'
+body.personalizations[6].bcc[0].email = 'random@gmail.com'
 
 body.personalizations[6].token_to = '{"tokenTo13_key": "tokenTo13_value","tokenTo14_key": "tokenTo6_value"}'
 body.personalizations[6].token_cc = '{"tokencc13_key": "tokencc13_value","tokencc14_key": "tokencc6_value"}'
@@ -587,18 +587,18 @@ body.personalizations[7].attachments[0].name = 'zip2.zip'
 body.personalizations[7].to = []
 
 body.personalizations[7].to.append(EmailStruct())
-body.personalizations[7].to[0].name = 'archana4'
-body.personalizations[7].to[0].email = 'kanhaiya.pal@outlook.com'
+body.personalizations[7].to[0].name = 'random'
+body.personalizations[7].to[0].email = 'random@gmail.com'
 
 body.personalizations[7].cc = []
 
 body.personalizations[7].cc.append(EmailStruct())
-body.personalizations[7].cc[0].email = 'kanhaiya.pal@rediffmail.com'
+body.personalizations[7].cc[0].email = 'random@gmail.com'
 
 body.personalizations[7].bcc = []
 
 body.personalizations[7].bcc.append(EmailStruct())
-body.personalizations[7].bcc[0].email = 'kanhaiya.pal@gmail.com'
+body.personalizations[7].bcc[0].email = 'random@gmail.com'
 
 body.personalizations[7].token_to = '{"tokenTo15_key": "tokenTo15_value","tokenTo16_key": "tokenTo16_value"}'
 body.personalizations[7].token_cc = '{"tokencc15_key": "tokencc15_value","tokencc16_key": "tokencc16_value"}'
@@ -616,18 +616,18 @@ body.personalizations[8].attachments[0].name = 'zip2.zip'
 body.personalizations[8].to = []
 
 body.personalizations[8].to.append(EmailStruct())
-body.personalizations[8].to[0].name = 'archana3'
-body.personalizations[8].to[0].email = 'kanhaiya.pal@yahoo.com'
+body.personalizations[8].to[0].name = 'random'
+body.personalizations[8].to[0].email = 'random@gmail.com'
 
 body.personalizations[8].cc = []
 
 body.personalizations[8].cc.append(EmailStruct())
-body.personalizations[8].cc[0].email = 'kanhaiya.pal@rediffmail.com'
+body.personalizations[8].cc[0].email = 'random@gmail.com'
 
 body.personalizations[8].bcc = []
 
 body.personalizations[8].bcc.append(EmailStruct())
-body.personalizations[8].bcc[0].email = 'kanhaiya.pal@gmail.com'
+body.personalizations[8].bcc[0].email = 'random@gmail.com'
 
 body.personalizations[8].token_to = '{"tokenTo17_key": "tokenTo17_value","tokenTo18_key": "tokenTo18_value"}'
 body.personalizations[8].token_cc = '{"tokencc17_key": "tokencc17_value","tokencc18_key": "tokencc18_value"}'
@@ -643,7 +643,7 @@ body.schedule = 0
 body.bcc = []
 
 body.bcc.append(EmailStruct())
-body.bcc[0].email = 'kanhaiya.pal@gmail.com'
+body.bcc[0].email = 'random@gmail.com'
 
 
 try:
@@ -669,7 +669,7 @@ from pepipost.models.settings import Settings
 from pepipost.exceptions.api_exception import APIException
 import jsonpickle
 
-api_key = '19647c1e88ecf4a81ed90e9667344705'
+api_key = 'your api_key here'
 
 client = PepipostClient(api_key)
 
@@ -678,8 +678,8 @@ client = PepipostClient(api_key)
 send_controller = client.send
 body = Send()
 body.mfrom = From()
-body.mfrom.email = 'scheduleval2@pepitest.xyz'
-body.mfrom.name = 'scheduleval2'
+body.mfrom.email = 'hello@your-register-domain-with-pepipost'
+body.mfrom.name = 'Example Pepi'
 body.subject = 'scheduleval2 [%NAME%] [%SURNAME%] [%PROFESSION%] [%AREA%]'
 body.template_id = 0
 body.content = []
@@ -702,22 +702,22 @@ body.personalizations[0].headers = jsonpickle.decode('{"header1_key":"header1_va
 body.personalizations[0].to = []
 
 body.personalizations[0].to.append(EmailStruct())
-body.personalizations[0].to[0].name = 'archana1'
-body.personalizations[0].to[0].email = 'kanhaiya.pal@gmail.com'
+body.personalizations[0].to[0].name = 'random'
+body.personalizations[0].to[0].email = 'random@gmail.com'
 
 body.personalizations[0].to.append(EmailStruct())
-body.personalizations[0].to[1].name = 'archana2'
-body.personalizations[0].to[1].email = 'kanhaiya.pal@gmail.com'
+body.personalizations[0].to[1].name = 'random'
+body.personalizations[0].to[1].email = 'random@gmail.com'
 
 body.personalizations[0].cc = []
 
 body.personalizations[0].cc.append(EmailStruct())
-body.personalizations[0].cc[0].email = 'kanhaiya.pal@gmail.com'
+body.personalizations[0].cc[0].email = 'random@gmail.com'
 
 body.personalizations[0].bcc = []
 
 body.personalizations[0].bcc.append(EmailStruct())
-body.personalizations[0].bcc[0].email = 'kanhaiya.pal@gmail.com'
+body.personalizations[0].bcc[0].email = 'random@gmail.com'
 
 body.personalizations[0].token_to = '{"tokenTo1_key": "tokenTo1_value","tokenTo2_key": "tokenTo2_value"}'
 body.personalizations[0].token_cc = '{"tokencc1_key": "tokencc1_value","tokencc2_key": "tokencc2_value"}'
@@ -733,7 +733,7 @@ body.schedule = 0
 body.bcc = []
 
 body.bcc.append(EmailStruct())
-body.bcc[0].email = 'kanhaiya.pal@gmail.com'
+body.bcc[0].email = 'random@gmail.com'
 
 
 try:
@@ -759,7 +759,7 @@ from pepipost.models.settings import Settings
 from pepipost.exceptions.api_exception import APIException
 import jsonpickle
 
-api_key = '19647c1e88ecf4a81ed90e9667344705'
+api_key = 'your api_key here'
 
 client = PepipostClient(api_key)
 
@@ -768,8 +768,8 @@ client = PepipostClient(api_key)
 send_controller = client.send
 body = Send()
 body.mfrom = From()
-body.mfrom.email = 'issuecheck6@pepitest.xyz'
-body.mfrom.name = 'issuecheck6'
+body.mfrom.email = 'hello@your-register-domain-with-pepipost'
+body.mfrom.name = 'Example Pepi'
 body.subject = 'issuecheck6 [%NAME%] [%SURNAME%] [%PROFESSION%] [%AREA%] [%POST%]'
 body.content = []
 
@@ -791,27 +791,27 @@ body.personalizations[0].headers = jsonpickle.decode('{"header1_key":"header1_va
 body.personalizations[0].to = []
 
 body.personalizations[0].to.append(EmailStruct())
-body.personalizations[0].to[0].name = 'archana1'
-body.personalizations[0].to[0].email = 'ttesttry758@gmail.com'
+body.personalizations[0].to[0].name = 'random'
+body.personalizations[0].to[0].email = 'random@gmail.com'
 
 body.personalizations[0].to.append(EmailStruct())
-body.personalizations[0].to[1].email = 'testartstar@gmail.com'
+body.personalizations[0].to[1].email = 'random@gmail.com'
 
 body.personalizations[0].to.append(EmailStruct())
-body.personalizations[0].to[2].email = 'testartstar@yahoo.com'
+body.personalizations[0].to[2].email = 'random@gmail.com'
 
 body.personalizations[0].to.append(EmailStruct())
-body.personalizations[0].to[3].email = 'archana.pandav20@gmail.com'
+body.personalizations[0].to[3].email = 'random@gmail.com'
 
 body.personalizations[0].cc = []
 
 body.personalizations[0].cc.append(EmailStruct())
-body.personalizations[0].cc[0].email = 'testartstar1@gmail.com'
+body.personalizations[0].cc[0].email = 'random@gmail.com'
 
 body.personalizations[0].bcc = []
 
 body.personalizations[0].bcc.append(EmailStruct())
-body.personalizations[0].bcc[0].email = 'testartstar2@gmail.com'
+body.personalizations[0].bcc[0].email = 'random@gmail.com'
 
 body.personalizations[0].token_to = '{"tokenTo1_key": "tokenTo1_value","tokenTo2_key": "tokenTo2_value"}'
 body.personalizations[0].token_cc = '{"tokencc1_key": "tokencc1_value","tokencc2_key": "tokencc2_value"}'
@@ -823,30 +823,30 @@ body.personalizations[1].headers = jsonpickle.decode('{"header2_key":"header2_va
 body.personalizations[1].to = []
 
 body.personalizations[1].to.append(EmailStruct())
-body.personalizations[1].to[0].name = 'archana3'
-body.personalizations[1].to[0].email = 'testartstar@yahoo.com'
+body.personalizations[1].to[0].name = 'random'
+body.personalizations[1].to[0].email = 'random@gmail.com'
 
 body.personalizations[1].to.append(EmailStruct())
-body.personalizations[1].to[1].name = 'archana3'
-body.personalizations[1].to[1].email = 'testartstar@outlook.com'
+body.personalizations[1].to[1].name = 'random'
+body.personalizations[1].to[1].email = 'random@gmail.com'
 
 body.personalizations[1].to.append(EmailStruct())
-body.personalizations[1].to[2].name = 'archana3'
-body.personalizations[1].to[2].email = 'testartstar@rediffmail.com'
+body.personalizations[1].to[2].name = 'random'
+body.personalizations[1].to[2].email = 'random@gmail.com'
 
 body.personalizations[1].to.append(EmailStruct())
-body.personalizations[1].to[3].name = 'archana3'
-body.personalizations[1].to[3].email = 'testartstar@gmail.com'
+body.personalizations[1].to[3].name = 'random'
+body.personalizations[1].to[3].email = 'random@gmail.com'
 
 body.personalizations[1].cc = []
 
 body.personalizations[1].cc.append(EmailStruct())
-body.personalizations[1].cc[0].email = 'testartstar@outlook.com'
+body.personalizations[1].cc[0].email = 'random@gmail.com'
 
 body.personalizations[1].bcc = []
 
 body.personalizations[1].bcc.append(EmailStruct())
-body.personalizations[1].bcc[0].email = 'archanapan2077@gmail.com'
+body.personalizations[1].bcc[0].email = 'random@gmail.com'
 
 body.personalizations[1].token_to = '{"tokenTo3_key": "tokenTo3_value","tokenTo4_key": "tokenTo4_value"}'
 body.personalizations[1].token_cc = '{"tokencc5_key": "tokencc5_value","tokencc6_key": "tokencc6_value"}'
@@ -862,7 +862,7 @@ body.schedule = 0
 body.bcc = []
 
 body.bcc.append(EmailStruct())
-body.bcc[0].email = 'archanapan2077@gmail.com'
+body.bcc[0].email = 'random@gmail.com'
 
 
 try:
@@ -888,7 +888,7 @@ from pepipost.models.settings import Settings
 from pepipost.exceptions.api_exception import APIException
 import jsonpickle
 
-api_key = '19647c1e88ecf4a81ed90e9667344705'
+api_key = 'your api_key here'
 
 client = PepipostClient(api_key)
 
@@ -897,8 +897,8 @@ client = PepipostClient(api_key)
 send_controller = client.send
 body = Send()
 body.mfrom = From()
-body.mfrom.email = 'day2test1@pepitest.xyz'
-body.mfrom.name = 'day2test1'
+body.mfrom.email = 'hello@your-register-domain-with-pepipost'
+body.mfrom.name = 'Example Pepi'
 body.subject = 'day2test1 [%NAME%] [%SURNAME%] [%PROFESSION%] [%AREA%] [%POST%]'
 body.content = []
 
@@ -942,27 +942,27 @@ body.personalizations[0].attachments[4].name = 'html1.html'
 body.personalizations[0].to = []
 
 body.personalizations[0].to.append(EmailStruct())
-body.personalizations[0].to[0].name = 'archana1'
-body.personalizations[0].to[0].email = 'ttesttry758@gmail.com'
+body.personalizations[0].to[0].name = 'random'
+body.personalizations[0].to[0].email = 'random@gmail.com'
 
 body.personalizations[0].cc = []
 
 body.personalizations[0].cc.append(EmailStruct())
-body.personalizations[0].cc[0].email = 'testartstar1@gmail.com'
+body.personalizations[0].cc[0].email = 'random@gmail.com'
 
 body.personalizations[0].cc.append(EmailStruct())
-body.personalizations[0].cc[1].email = 'testartstar@gmail.com'
+body.personalizations[0].cc[1].email = 'random@gmail.com'
 
 body.personalizations[0].cc.append(EmailStruct())
-body.personalizations[0].cc[2].email = 'testartstar@yahoo.com'
+body.personalizations[0].cc[2].email = 'random@gmail.com'
 
 body.personalizations[0].cc.append(EmailStruct())
-body.personalizations[0].cc[3].email = 'archana.pandav20@gmail.com'
+body.personalizations[0].cc[3].email = 'random@gmail.com'
 
 body.personalizations[0].bcc = []
 
 body.personalizations[0].bcc.append(EmailStruct())
-body.personalizations[0].bcc[0].email = 'testartstar2@gmail.com'
+body.personalizations[0].bcc[0].email = 'random@gmail.com'
 
 body.personalizations[0].token_to = '{"tokenTo1_key": "tokenTo1_value","tokenTo2_key": "tokenTo2_value"}'
 body.personalizations[0].token_cc = '{"tokencc1_key": "tokencc1_value","tokencc2_key": "tokencc2_value"}'
@@ -980,27 +980,27 @@ body.personalizations[1].attachments[0].name = 'zip2.zip'
 body.personalizations[1].to = []
 
 body.personalizations[1].to.append(EmailStruct())
-body.personalizations[1].to[0].name = 'archana3'
-body.personalizations[1].to[0].email = 'testartstar@yahoo.com'
+body.personalizations[1].to[0].name = 'random'
+body.personalizations[1].to[0].email = 'random@gmail.com'
 
 body.personalizations[1].cc = []
 
 body.personalizations[1].cc.append(EmailStruct())
-body.personalizations[1].cc[0].email = 'testartstar@outlook.com'
+body.personalizations[1].cc[0].email = 'random@gmail.com'
 
 body.personalizations[1].cc.append(EmailStruct())
-body.personalizations[1].cc[1].email = 'testartstar@outlook.com'
+body.personalizations[1].cc[1].email = 'random@gmail.com'
 
 body.personalizations[1].cc.append(EmailStruct())
-body.personalizations[1].cc[2].email = 'testartstar@rediffmail.com'
+body.personalizations[1].cc[2].email = 'random@gmail.com'
 
 body.personalizations[1].cc.append(EmailStruct())
-body.personalizations[1].cc[3].email = 'testartstar@gmail.com'
+body.personalizations[1].cc[3].email = 'random@gmail.com'
 
 body.personalizations[1].bcc = []
 
 body.personalizations[1].bcc.append(EmailStruct())
-body.personalizations[1].bcc[0].email = 'archanapan2077@gmail.com'
+body.personalizations[1].bcc[0].email = 'random@gmail.com'
 
 body.personalizations[1].token_to = '{"tokenTo3_key": "tokenTo3_value","tokenTo4_key": "tokenTo4_value"}'
 body.personalizations[1].token_cc = '{"tokencc5_key": "tokencc5_value","tokencc6_key": "tokencc6_value"}'
@@ -1016,7 +1016,7 @@ body.schedule = 1589870850
 body.bcc = []
 
 body.bcc.append(EmailStruct())
-body.bcc[0].email = 'archanapan2077@gmail.com'
+body.bcc[0].email = 'random@gmail.com'
 
 
 try:

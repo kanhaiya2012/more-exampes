@@ -14,7 +14,8 @@
 * [get credit details of subaccount](#example13)
 
 <a name="example1"></a>
- 
+## fetch event logs
+
 ```cs
 using System;
 using System.Collections.Generic;
@@ -54,7 +55,8 @@ namespace Testing
 ```
 
 <a name="example2"></a>
- 
+## fetch summary stats
+
 ```cs
 using System;
 using System.Collections.Generic;
@@ -90,7 +92,8 @@ namespace Testing
 }
 ```
 <a name="example3"></a>
- 
+## Domain Add 
+
 ```cs
 using System;
 using System.Collections.Generic;
@@ -127,7 +130,8 @@ namespace Testing
 ```
 
 <a name="example4"></a>
- 
+## Domain delete 
+
 ```cs
 using System;
 using System.Collections.Generic;
@@ -163,7 +167,8 @@ namespace Testing
 ```
 
 <a name="example5"></a>
- 
+## Suppression add
+
 ```cs
 using System;
 using System.Collections.Generic;
@@ -200,7 +205,8 @@ namespace Testing
 ```
 
 <a name="example6"></a>
- 
+## Suppression delete
+
 ```cs
 using System;
 using System.Collections.Generic;
@@ -237,7 +243,8 @@ namespace Testing
 ```
 
 <a name="example7"></a>
- 
+## create subaccount
+
 ```cs
 using System;
 using System.Collections.Generic;
@@ -276,7 +283,8 @@ namespace Testing
 ```
 
 <a name="example8"></a>
- 
+## update subaccount
+
 ```cs
 using System;
 using System.Collections.Generic;
@@ -313,7 +321,8 @@ namespace Testing
 ```
 
 <a name="example9"></a>
- 
+## enable/disable subaccount
+
 ```cs
 using System;
 using System.Collections.Generic;
@@ -350,7 +359,8 @@ namespace Testing
 ```
 
 <a name="example10"></a>
- 
+## delete subaccount
+
 ```cs
 using System;
 using System.Collections.Generic;
@@ -386,7 +396,8 @@ namespace Testing
 ```
 
 <a name="example11"></a>
- 
+## set recurring credit in subaccount
+
 ```cs
 using System;
 using System.Collections.Generic;
@@ -424,7 +435,8 @@ namespace Testing
 ```
 
 <a name="example12"></a>
- 
+## add credit in subaccount
+
 ```cs
 using System;
 using System.Collections.Generic;
@@ -462,7 +474,8 @@ namespace Testing
 ```
 
 <a name="example13"></a>
- 
+## get credit details of subaccount
+
 ```cs
 using System;
 using System.Collections.Generic;

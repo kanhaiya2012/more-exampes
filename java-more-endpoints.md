@@ -14,7 +14,8 @@
 * [get credit details of subaccount](#example13)
 
 <a name="example1"></a>
- 
+## fetch event logs
+
 ```java
 package com.example;
 
@@ -57,7 +58,8 @@ public class Program {
 ```
 
 <a name="example2"></a>
- 
+## fetch summary stats 
+
 ```java
 package com.example;
 
@@ -94,7 +96,8 @@ public class Program {
 }
 ```
 <a name="example3"></a>
- 
+## Domain Add
+
 ```java
 package com.example;
 
@@ -130,7 +133,8 @@ public class Program {
 ```
 
 <a name="example4"></a>
- 
+## Domain delete  
+
 ```java
 package com.example;
 
@@ -165,7 +169,8 @@ public class Program {
 ```
 
 <a name="example5"></a>
- 
+## Suppression add 
+
 ```java
 package com.example;
 
@@ -201,7 +206,8 @@ public class Program {
 ```
 
 <a name="example6"></a>
- 
+## Suppression delete 
+
 ```java
 package com.example;
 
@@ -237,7 +243,8 @@ public class Program {
 ```
 
 <a name="example7"></a>
- 
+## create subaccount 
+
 ```java
 package com.example;
 
@@ -275,7 +282,8 @@ public class Program {
 ```
 
 <a name="example8"></a>
- 
+## update subaccount 
+
 ```java
 package com.example;
 
@@ -313,7 +321,8 @@ public class Program {
 ```
 
 <a name="example9"></a>
- 
+## enable/disable subaccount 
+
 ```java
 package com.example;
 
@@ -349,7 +358,8 @@ public class Program {
 ```
 
 <a name="example10"></a>
- 
+## delete subaccount 
+
 ```java
 package com.example;
 
@@ -384,7 +394,8 @@ public class Program {
 ```
 
 <a name="example11"></a>
- 
+## set recurring credit in subaccount  
+
 ```java
 package com.example;
 
@@ -421,7 +432,8 @@ public class Program {
 ```
 
 <a name="example12"></a>
- 
+## add credit in subaccount 
+
 ```java
 package com.example;
 
@@ -458,7 +470,8 @@ public class Program {
 ```
 
 <a name="example13"></a>
- 
+## get credit details of subaccount 
+
 ```java
 package com.example;
 

@@ -14,7 +14,8 @@
 * [get credit details of subaccount](#example13)
 
 <a name="example1"></a>
- 
+## fetch event logs 
+
 ```python
 
 from pepipost.pepipost_client import PepipostClient
@@ -44,7 +45,8 @@ except APIException as e:
 ```
 
 <a name="example2"></a>
- 
+## fetch summary stats  
+
 ```python
 from pepipost.pepipost_client import PepipostClient
 from pepipost.models.aggregated_by_enum import AggregatedByEnum
@@ -68,7 +70,8 @@ except APIException as e:
     print(e)
 ```
 <a name="example3"></a>
- 
+## Domain Add  
+
 ```python
 from pepipost.pepipost_client import PepipostClient
 from pepipost.models.domain_struct import DomainStruct
@@ -92,7 +95,8 @@ except APIException as e:
 ```
 
 <a name="example4"></a>
- 
+## Domain delete 
+
 ```python
 from pepipost.pepipost_client import PepipostClient
 from pepipost.models.delete_domain import DeleteDomain
@@ -115,7 +119,8 @@ except APIException as e:
 ```
 
 <a name="example5"></a>
- 
+## Suppression add  
+
 ```python
 from pepipost.pepipost_client import PepipostClient
 from pepipost.models.add_email_or_domain_to_suppression_list import AddEmailOrDomainToSuppressionList
@@ -139,7 +144,8 @@ except APIException as e:
 ```
 
 <a name="example6"></a>
- 
+## Suppression delete  
+
 ```python
 from pepipost.pepipost_client import PepipostClient
 from pepipost.models.remove_email_or_domain_to_suppression_list import RemoveEmailOrDomainToSuppressionList
@@ -163,7 +169,8 @@ except APIException as e:
 ```
 
 <a name="example7"></a>
- 
+## create subaccount 
+
 ```python
 from pepipost.pepipost_client import PepipostClient
 from pepipost.models.create_subaccount import CreateSubaccount
@@ -189,7 +196,8 @@ except APIException as e:
 ```
 
 <a name="example8"></a>
- 
+## update subaccount  
+
 ```python
 from pepipost.pepipost_client import PepipostClient
 from pepipost.models.update_subaccount import UpdateSubaccount
@@ -215,7 +223,8 @@ except APIException as e:
 ```
 
 <a name="example9"></a>
- 
+## enable/disable subaccount 
+
 ```python
 from pepipost.pepipost_client import PepipostClient
 from pepipost.models.enable_or_disable_subacoount import EnableOrDisableSubacoount
@@ -239,7 +248,8 @@ except APIException as e:
 ```
 
 <a name="example10"></a>
- 
+## delete subaccount 
+
 ```python
 from pepipost.pepipost_client import PepipostClient
 from pepipost.models.delete_subacoount import DeleteSubacoount
@@ -262,7 +272,8 @@ except APIException as e:
 ```
 
 <a name="example11"></a>
- 
+## set recurring credit in subaccount 
+
 ```python
 from pepipost.pepipost_client import PepipostClient
 from pepipost.models.update_recurring_credis_of_subaccount import UpdateRecurringCredisOfSubaccount
@@ -288,7 +299,8 @@ except APIException as e:
 ```
 
 <a name="example12"></a>
- 
+## add credit in subaccount 
+
 ```python
 from pepipost.pepipost_client import PepipostClient
 from pepipost.models.update_credis_of_subaccount import UpdateCredisOfSubaccount
@@ -314,7 +326,8 @@ except APIException as e:
 ```
 
 <a name="example13"></a>
- 
+## get credit details of subaccount  
+
 ```python
 from pepipost.pepipost_client import PepipostClient
 from pepipost.exceptions.api_exception import APIException

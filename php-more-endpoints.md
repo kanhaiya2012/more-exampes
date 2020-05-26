@@ -14,7 +14,8 @@
 * [get credit details of subaccount](#example13)
 
 <a name="example1"></a>
- 
+## fetch event logs 
+
 ```php
 
 <?php
@@ -48,7 +49,8 @@ try {
 ```
 
 <a name="example2"></a>
- 
+## fetch summary stats  
+
 ```php
 
 <?php
@@ -77,7 +79,8 @@ try {
 }
 ```
 <a name="example3"></a>
- 
+## Domain Add  
+
 ```php
 <?php
 
@@ -104,7 +107,8 @@ try {
 ```
 
 <a name="example4"></a>
- 
+## Domain delete 
+
 ```php
 <?php
 
@@ -130,7 +134,8 @@ try {
 ```
 
 <a name="example5"></a>
- 
+## Suppression add 
+
 ```php
 <?php
 
@@ -157,7 +162,8 @@ try {
 ```
 
 <a name="example6"></a>
- 
+## Suppression delete 
+
 ```php
 <?php
 
@@ -184,7 +190,8 @@ try {
 ```
 
 <a name="example7"></a>
- 
+## create subaccount 
+
 ```php
 <?php
 
@@ -213,7 +220,8 @@ try {
 ```
 
 <a name="example8"></a>
- 
+## update subaccount 
+
 ```php
 <?php
 
@@ -242,7 +250,8 @@ try {
 ```
 
 <a name="example9"></a>
- 
+## enable/disable subaccount 
+
 ```php
 
 <?php
@@ -270,7 +279,8 @@ try {
 ```
 
 <a name="example10"></a>
- 
+## delete subaccount 
+
 ```php
 
 <?php
@@ -298,7 +308,8 @@ try {
 ```
 
 <a name="example11"></a>
- 
+## set recurring credit in subaccount 
+
 ```php
 <?php
 
@@ -326,7 +337,8 @@ try {
 ```
 
 <a name="example12"></a>
- 
+## add credit in subaccount 
+
 ```php
 <?php
 
@@ -354,7 +366,8 @@ try {
 ```
 
 <a name="example13"></a>
- 
+## get credit details of subaccount 
+
 ```php
 <?php
 

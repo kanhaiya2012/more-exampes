@@ -14,7 +14,8 @@
 * [get credit details of subaccount](#example13)
 
 <a name="example1"></a>
- 
+## fetch event logs  
+
 ```ruby
 require 'pepipost'
 
@@ -40,7 +41,8 @@ end
 ```
 
 <a name="example2"></a>
- 
+## fetch summary stats 
+
 ```ruby
 require 'pepipost'
 
@@ -64,7 +66,8 @@ rescue APIException => ex
 end
 ```
 <a name="example3"></a>
- 
+## Domain Add  
+
 ```ruby
 require 'pepipost'
 
@@ -87,7 +90,8 @@ end
 ```
 
 <a name="example4"></a>
- 
+## Domain delete 
+
 ```ruby
 require 'pepipost'
 
@@ -109,7 +113,8 @@ end
 ```
 
 <a name="example5"></a>
- 
+## Suppression add  
+
 ```ruby
 require 'pepipost'
 
@@ -132,7 +137,8 @@ end
 ```
 
 <a name="example6"></a>
- 
+## Suppression delete 
+
 ```ruby
 require 'pepipost'
 
@@ -155,7 +161,8 @@ end
 ```
 
 <a name="example7"></a>
- 
+## create subaccount  
+
 ```ruby
 require 'pepipost'
 
@@ -180,7 +187,8 @@ end
 ```
 
 <a name="example8"></a>
- 
+## update subaccount  
+
 ```ruby
 require 'pepipost'
 
@@ -205,7 +213,8 @@ end
 ```
 
 <a name="example9"></a>
- 
+## enable/disable subaccount  
+
 ```ruby
 require 'pepipost'
 
@@ -228,7 +237,8 @@ end
 ```
 
 <a name="example10"></a>
- 
+## delete subaccount 
+
 ```ruby
 require 'pepipost'
 
@@ -250,7 +260,8 @@ end
 ```
 
 <a name="example11"></a>
- 
+## set recurring credit in subaccount 
+
 ```ruby
 require 'pepipost'
 
@@ -274,7 +285,8 @@ end
 ```
 
 <a name="example12"></a>
- 
+## add credit in subaccount 
+
 ```ruby
 require 'pepipost'
 
@@ -298,7 +310,8 @@ end
 ```
 
 <a name="example13"></a>
- 
+## get credit details of subaccount  
+
 ```ruby
 require 'pepipost'
 

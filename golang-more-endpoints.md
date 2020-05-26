@@ -14,7 +14,8 @@
 * [get credit details of subaccount](#example13)
 
 <a name="example1"></a>
- 
+## fetch event logs
+
 ```go
 package main
 
@@ -58,7 +59,8 @@ func main(){
 ```
 
 <a name="example2"></a>
- 
+## fetch summary stats
+
 ```go
 package main
 
@@ -98,7 +100,8 @@ func main(){
 }
 ```
 <a name="example3"></a>
- 
+## Domain Add  
+
 ```go
 package main
 
@@ -138,7 +141,8 @@ func main(){
 ```
 
 <a name="example4"></a>
- 
+## Domain delete 
+
 ```go
 package main
 
@@ -177,7 +181,8 @@ func main(){
 ```
 
 <a name="example5"></a>
- 
+## Suppression add  
+
 ```go
 package main
 
@@ -217,7 +222,8 @@ func main(){
 ```
 
 <a name="example6"></a>
- 
+## Suppression delete 
+
 ```go
 package main
 
@@ -257,7 +263,8 @@ func main(){
 ```
 
 <a name="example7"></a>
- 
+## create subaccount 
+
 ```go
 package main
 
@@ -299,7 +306,8 @@ func main(){
 ```
 
 <a name="example8"></a>
- 
+## update subaccount  
+
 ```go
 package main
 
@@ -341,7 +349,8 @@ func main(){
 ```
 
 <a name="example9"></a>
- 
+## enable/disable subaccount 
+
 ```go
 package main
 
@@ -381,7 +390,8 @@ func main(){
 ```
 
 <a name="example10"></a>
- 
+## delete subaccount 
+
 ```go
 package main
 
@@ -420,7 +430,8 @@ func main(){
 ```
 
 <a name="example11"></a>
- 
+## set recurring credit in subaccount 
+
 ```go
 package main
 
@@ -461,7 +472,8 @@ func main(){
 ```
 
 <a name="example12"></a>
- 
+## add credit in subaccount 
+
 ```go
 package main
 
@@ -502,7 +514,8 @@ func main(){
 ```
 
 <a name="example13"></a>
- 
+## get credit details of subaccount
+
 ```go
 package main
 

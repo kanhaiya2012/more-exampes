@@ -16,7 +16,7 @@
 
 const lib = require('lib');
 const configuration = lib.Configuration;
-const controller = lib.SendController;
+const controller = lib.MailSendController;
 
 configuration.apiKey = 'your api_key here';
 
@@ -93,7 +93,7 @@ body.bcc[0] = new lib.EmailStruct();
 body.bcc[0].email = 'random@gmail.com';
 
 
-const promise = controller.createGenerateTheMailSendRequest(body);
+const promise = controller.createGeneratethemailsendrequest(body);
 promise.then((response) => {
     // this block will be executed on successful endpoint call
     // `response` will be of type 'array'
@@ -111,7 +111,7 @@ promise.then((response) => {
 
 const lib = require('lib');
 const configuration = lib.Configuration;
-const controller = lib.SendController;
+const controller = lib.MailSendController;
 
 configuration.apiKey = 'your api_key here';
 
@@ -185,7 +185,7 @@ body.bcc[0] = new lib.EmailStruct();
 body.bcc[0].email = 'random@gmail.com';
 
 
-const promise = controller.createGenerateTheMailSendRequest(body);
+const promise = controller.createGeneratethemailsendrequest(body);
 promise.then((response) => {
     // this block will be executed on successful endpoint call
     // `response` will be of type 'array'
@@ -203,7 +203,7 @@ promise.then((response) => {
 
 const lib = require('lib');
 const configuration = lib.Configuration;
-const controller = lib.SendController;
+const controller = lib.MailSendController;
 
 configuration.apiKey = 'your api_key here';
 
@@ -324,7 +324,7 @@ body.bcc[0] = new lib.EmailStruct();
 body.bcc[0].email = 'random@gmail.com';
 
 
-const promise = controller.createGenerateTheMailSendRequest(body);
+const promise = controller.createGeneratethemailsendrequest(body);
 promise.then((response) => {
     // this block will be executed on successful endpoint call
     // `response` will be of type 'array'
@@ -342,7 +342,7 @@ promise.then((response) => {
 
 const lib = require('lib');
 const configuration = lib.Configuration;
-const controller = lib.SendController;
+const controller = lib.MailSendController;
 
 configuration.apiKey = 'your api_key here';
 
@@ -701,7 +701,7 @@ body.bcc[0] = new lib.EmailStruct();
 body.bcc[0].email = 'random@gmail.com';
 
 
-const promise = controller.createGenerateTheMailSendRequest(body);
+const promise = controller.createGeneratethemailsendrequest(body);
 promise.then((response) => {
     // this block will be executed on successful endpoint call
     // `response` will be of type 'array'
@@ -719,7 +719,7 @@ promise.then((response) => {
 
 const lib = require('lib');
 const configuration = lib.Configuration;
-const controller = lib.SendController;
+const controller = lib.MailSendController;
 
 configuration.apiKey = 'your api_key here';
 
@@ -794,7 +794,7 @@ body.bcc[0] = new lib.EmailStruct();
 body.bcc[0].email = 'random@gmail.com';
 
 
-const promise = controller.createGenerateTheMailSendRequest(body);
+const promise = controller.createGeneratethemailsendrequest(body);
 promise.then((response) => {
     // this block will be executed on successful endpoint call
     // `response` will be of type 'array'
@@ -812,7 +812,7 @@ promise.then((response) => {
 
 const lib = require('lib');
 const configuration = lib.Configuration;
-const controller = lib.SendController;
+const controller = lib.MailSendController;
 
 configuration.apiKey = 'your api_key here';
 
@@ -935,7 +935,7 @@ body.bcc[0] = new lib.EmailStruct();
 body.bcc[0].email = 'random@gmail.com';
 
 
-const promise = controller.createGenerateTheMailSendRequest(body);
+const promise = controller.createGeneratethemailsendrequest(body);
 promise.then((response) => {
     // this block will be executed on successful endpoint call
     // `response` will be of type 'array'
@@ -953,7 +953,7 @@ promise.then((response) => {
 
 const lib = require('lib');
 const configuration = lib.Configuration;
-const controller = lib.SendController;
+const controller = lib.MailSendController;
 
 configuration.apiKey = 'your api_key here';
 
@@ -1107,7 +1107,7 @@ body.bcc[0] = new lib.EmailStruct();
 body.bcc[0].email = 'random@gmail.com';
 
 
-const promise = controller.createGenerateTheMailSendRequest(body);
+const promise = controller.createGeneratethemailsendrequest(body);
 promise.then((response) => {
     // this block will be executed on successful endpoint call
     // `response` will be of type 'array'

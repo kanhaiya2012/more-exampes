@@ -31,7 +31,8 @@ client = PepipostClient(api_key)
 
 
 
-send_controller = client.send
+mail_send_controller = client.mail_send
+
 body = Send()
 body.mfrom = From()
 body.mfrom.email = 'hello@your-register-domain-with-pepipost'
@@ -95,7 +96,8 @@ body.bcc[0].email = 'random@gmail.com'
 
 
 try:
-    result = send_controller.create_generate_the_mail_send_request(body)
+    result = mail_send_controller.create_generatethemailsendrequest(body)
+    print(result)
 except APIException as e: 
     print(e)
 
@@ -124,7 +126,8 @@ client = PepipostClient(api_key)
 
 
 
-send_controller = client.send
+mail_send_controller = client.mail_send
+
 body = Send()
 body.mfrom = From()
 body.mfrom.email = 'hello@your-register-domain-with-pepipost'
@@ -185,7 +188,8 @@ body.bcc[0].email = 'random@gmail.com'
 
 
 try:
-    result = send_controller.create_generate_the_mail_send_request(body)
+    result = mail_send_controller.create_generatethemailsendrequest(body)
+    print(result)
 except APIException as e: 
     print(e)
 
@@ -214,7 +218,8 @@ client = PepipostClient(api_key)
 
 
 
-send_controller = client.send
+mail_send_controller = client.mail_send
+
 body = Send()
 body.mfrom = From()
 body.mfrom.email = 'hello@your-register-domain-with-pepipost'
@@ -315,7 +320,8 @@ body.bcc[0].email = 'random@gmail.com'
 
 
 try:
-    result = send_controller.create_generate_the_mail_send_request(body)
+    result = mail_send_controller.create_generatethemailsendrequest(body)
+    print(result)
 except APIException as e: 
     print(e)
 ```    
@@ -343,7 +349,8 @@ client = PepipostClient(api_key)
 
 
 
-send_controller = client.send
+mail_send_controller = client.mail_send
+
 body = Send()
 body.mfrom = From()
 body.mfrom.email = 'hello@your-register-domain-with-pepipost'
@@ -647,7 +654,8 @@ body.bcc[0].email = 'random@gmail.com'
 
 
 try:
-    result = send_controller.create_generate_the_mail_send_request(body)
+    result = mail_send_controller.create_generatethemailsendrequest(body)
+    print(result)
 except APIException as e: 
     print(e)
 ```
@@ -675,7 +683,8 @@ client = PepipostClient(api_key)
 
 
 
-send_controller = client.send
+mail_send_controller = client.mail_send
+
 body = Send()
 body.mfrom = From()
 body.mfrom.email = 'hello@your-register-domain-with-pepipost'
@@ -737,7 +746,8 @@ body.bcc[0].email = 'random@gmail.com'
 
 
 try:
-    result = send_controller.create_generate_the_mail_send_request(body)
+    result = mail_send_controller.create_generatethemailsendrequest(body)
+    print(result)
 except APIException as e: 
     print(e)
 ```    
@@ -765,7 +775,8 @@ client = PepipostClient(api_key)
 
 
 
-send_controller = client.send
+mail_send_controller = client.mail_send
+
 body = Send()
 body.mfrom = From()
 body.mfrom.email = 'hello@your-register-domain-with-pepipost'
@@ -866,7 +877,8 @@ body.bcc[0].email = 'random@gmail.com'
 
 
 try:
-    result = send_controller.create_generate_the_mail_send_request(body)
+    result = mail_send_controller.create_generatethemailsendrequest(body)
+    print(result)
 except APIException as e: 
     print(e)
 ```    
@@ -894,7 +906,8 @@ client = PepipostClient(api_key)
 
 
 
-send_controller = client.send
+mail_send_controller = client.mail_send
+
 body = Send()
 body.mfrom = From()
 body.mfrom.email = 'hello@your-register-domain-with-pepipost'
@@ -1020,7 +1033,8 @@ body.bcc[0].email = 'random@gmail.com'
 
 
 try:
-    result = send_controller.create_generate_the_mail_send_request(body)
+    result = mail_send_controller.create_generatethemailsendrequest(body)
+    print(result)
 except APIException as e: 
     print(e)
 ```        

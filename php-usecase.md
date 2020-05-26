@@ -23,7 +23,7 @@ $apiKey = 'your api_key here';
 
 $client = new PepipostLib\PepipostClient($apiKey);
 
-$sendController = $client->getSend();
+$mailSendController = $client->getMailSend();
 
 $body = new Models\Send;
 $body->from = new Models\From;
@@ -88,7 +88,7 @@ $body->bcc[0]->email = 'random@gmail.com';
 
 
 try {
-    $result = $sendController->createGenerateTheMailSendRequest($body);
+    $result = $mailSendController->createGeneratethemailsendrequest($body);
     var_dump($result);
 } catch (PepipostLib\APIException $e) {
     echo 'Caught APIException: ',  $e->getMessage(), "\n"; 
@@ -110,7 +110,7 @@ $apiKey = 'your api_key here';
 
 $client = new PepipostLib\PepipostClient($apiKey);
 
-$sendController = $client->getSend();
+$mailSendController = $client->getMailSend();
 
 $body = new Models\Send;
 $body->from = new Models\From;
@@ -172,7 +172,7 @@ $body->bcc[0]->email = 'random@gmail.com';
 
 
 try {
-    $result = $sendController->createGenerateTheMailSendRequest($body);
+    $result = $mailSendController->createGeneratethemailsendrequest($body);
     var_dump($result);
 } catch (PepipostLib\APIException $e) {
     echo 'Caught APIException: ',  $e->getMessage(), "\n"; 
@@ -194,7 +194,7 @@ $apiKey = 'your api_key here';
 
 $client = new PepipostLib\PepipostClient($apiKey);
 
-$sendController = $client->getSend();
+$mailSendController = $client->getMailSend();
 
 $body = new Models\Send;
 $body->from = new Models\From;
@@ -296,7 +296,7 @@ $body->bcc[0]->email = 'random@gmail.com';
 
 
 try {
-    $result = $sendController->createGenerateTheMailSendRequest($body);
+    $result = $mailSendController->createGeneratethemailsendrequest($body);
     var_dump($result);
 } catch (PepipostLib\APIException $e) {
     echo 'Caught APIException: ',  $e->getMessage(), "\n"; 
@@ -318,7 +318,7 @@ $apiKey = 'your api_key here';
 
 $client = new PepipostLib\PepipostClient($apiKey);
 
-$sendController = $client->getSend();
+$mailSendController = $client->getMailSend();
 
 $body = new Models\Send;
 $body->from = new Models\From;
@@ -623,7 +623,7 @@ $body->bcc[0]->email = 'random@gmail.com';
 
 
 try {
-    $result = $sendController->createGenerateTheMailSendRequest($body);
+    $result = $mailSendController->createGeneratethemailsendrequest($body);
     var_dump($result);
 } catch (PepipostLib\APIException $e) {
     echo 'Caught APIException: ',  $e->getMessage(), "\n"; 
@@ -645,7 +645,7 @@ $apiKey = 'your api_key here';
 
 $client = new PepipostLib\PepipostClient($apiKey);
 
-$sendController = $client->getSend();
+$mailSendController = $client->getMailSend();
 
 $body = new Models\Send;
 $body->from = new Models\From;
@@ -708,7 +708,7 @@ $body->bcc[0]->email = 'random@gmail.com';
 
 
 try {
-    $result = $sendController->createGenerateTheMailSendRequest($body);
+    $result = $mailSendController->createGeneratethemailsendrequest($body);
     var_dump($result);
 } catch (PepipostLib\APIException $e) {
     echo 'Caught APIException: ',  $e->getMessage(), "\n"; 
@@ -730,7 +730,7 @@ $apiKey = 'your api_key here';
 
 $client = new PepipostLib\PepipostClient($apiKey);
 
-$sendController = $client->getSend();
+$mailSendController = $client->getMailSend();
 
 $body = new Models\Send;
 $body->from = new Models\From;
@@ -832,7 +832,7 @@ $body->bcc[0]->email = 'random@gmail.com';
 
 
 try {
-    $result = $sendController->createGenerateTheMailSendRequest($body);
+    $result = $mailSendController->createGeneratethemailsendrequest($body);
     var_dump($result);
 } catch (PepipostLib\APIException $e) {
     echo 'Caught APIException: ',  $e->getMessage(), "\n"; 
@@ -854,7 +854,7 @@ $apiKey = 'your api_key here';
 
 $client = new PepipostLib\PepipostClient($apiKey);
 
-$sendController = $client->getSend();
+$mailSendController = $client->getMailSend();
 
 $body = new Models\Send;
 $body->from = new Models\From;
@@ -981,7 +981,7 @@ $body->bcc[0]->email = 'random@gmail.com';
 
 
 try {
-    $result = $sendController->createGenerateTheMailSendRequest($body);
+    $result = $mailSendController->createGeneratethemailsendrequest($body);
     var_dump($result);
 } catch (PepipostLib\APIException $e) {
     echo 'Caught APIException: ',  $e->getMessage(), "\n"; 

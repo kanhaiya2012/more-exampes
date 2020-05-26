@@ -30,7 +30,7 @@ public class Program {
     public static void main(String[] args) throws JsonProcessingException {
         
         PepipostClient client = new PepipostClient();
-        SendController sendController = client.getSend();
+        MailSendController mailSendController = client.getMailSend();
         Configuration.apiKey = "your api_key here";
 
         
@@ -106,7 +106,7 @@ public class Program {
         body.getBcc().add(body_bcc_0);
         
         
-        sendController.createGenerateTheMailSendRequestAsync(body, new APICallBack<Object>() {
+        mailSendController.createGeneratethemailsendrequestAsync(body, new APICallBack<Object>() {
             public void onSuccess(HttpContext context, Object response) {
                 // TODO success callback handler
                 System.out.println(response.toString());
@@ -144,7 +144,7 @@ public class Program {
     public static void main(String[] args) throws JsonProcessingException {
         
         PepipostClient client = new PepipostClient();
-        SendController sendController = client.getSend();
+        MailSendController mailSendController = client.getMailSend();
         Configuration.apiKey = "your api_key here";
         Send body = new Send();
         body.setFrom(new From());
@@ -214,7 +214,7 @@ public class Program {
         body.getBcc().add(body_bcc_0);
         
         
-        sendController.createGenerateTheMailSendRequestAsync(body, new APICallBack<Object>() {
+        mailSendController.createGeneratethemailsendrequestAsync(body, new APICallBack<Object>() {
             public void onSuccess(HttpContext context, Object response) {
                 // TODO success callback handler
                 System.out.println(response.toString());
@@ -251,7 +251,7 @@ public class Program {
     public static void main(String[] args) throws JsonProcessingException {
         
         PepipostClient client = new PepipostClient();
-        SendController sendController = client.getSend();
+        MailSendController mailSendController = client.getMailSend();
         Configuration.apiKey = "your api_key here";
         Send body = new Send();
         body.setFrom(new From());
@@ -368,7 +368,7 @@ public class Program {
         body.getBcc().add(body_bcc_0);
         
         
-        sendController.createGenerateTheMailSendRequestAsync(body, new APICallBack<Object>() {
+        mailSendController.createGeneratethemailsendrequestAsync(body, new APICallBack<Object>() {
             public void onSuccess(HttpContext context, Object response) {
                 // TODO success callback handler
                 System.out.println(response.toString());
@@ -406,7 +406,7 @@ public class Program {
     public static void main(String[] args) throws JsonProcessingException {
         
         PepipostClient client = new PepipostClient();
-        SendController sendController = client.getSend();
+        MailSendController mailSendController = client.getMailSend();
         Configuration.apiKey = "your api_key here";
         Send body = new Send();
         body.setFrom(new From());
@@ -761,7 +761,7 @@ public class Program {
         body.getBcc().add(body_bcc_0);
         
         
-        sendController.createGenerateTheMailSendRequestAsync(body, new APICallBack<Object>() {
+        mailSendController.createGeneratethemailsendrequestAsync(body, new APICallBack<Object>() {
             public void onSuccess(HttpContext context, Object response) {
                 // TODO success callback handler
                 System.out.println(response.toString());
@@ -797,7 +797,7 @@ public class Program {
     public static void main(String[] args) throws JsonProcessingException {
         
         PepipostClient client = new PepipostClient();
-        SendController sendController = client.getSend();
+        MailSendController mailSendController = client.getMailSend();
         Configuration.apiKey = "your api_key here";
         Send body = new Send();
         body.setFrom(new From());
@@ -868,7 +868,7 @@ public class Program {
         body.getBcc().add(body_bcc_0);
         
         
-        sendController.createGenerateTheMailSendRequestAsync(body, new APICallBack<Object>() {
+        mailSendController.createGeneratethemailsendrequestAsync(body, new APICallBack<Object>() {
             public void onSuccess(HttpContext context, Object response) {
                 // TODO success callback handler
                 System.out.println(response.toString());
@@ -905,7 +905,7 @@ public class Program {
     public static void main(String[] args) throws JsonProcessingException {
         
         PepipostClient client = new PepipostClient();
-        SendController sendController = client.getSend();
+        MailSendController mailSendController = client.getMailSend();
         Configuration.apiKey = "your api_key here";
         Send body = new Send();
         body.setFrom(new From());
@@ -1024,7 +1024,7 @@ public class Program {
         body.getBcc().add(body_bcc_0);
         
         
-        sendController.createGenerateTheMailSendRequestAsync(body, new APICallBack<Object>() {
+        mailSendController.createGeneratethemailsendrequestAsync(body, new APICallBack<Object>() {
             public void onSuccess(HttpContext context, Object response) {
                 // TODO success callback handler
                 System.out.println(response.toString());
@@ -1060,7 +1060,7 @@ public class Program {
     public static void main(String[] args) throws JsonProcessingException {
         
         PepipostClient client = new PepipostClient();
-        SendController sendController = client.getSend();
+        MailSendController mailSendController = client.getMailSend();
         Configuration.apiKey = "your api_key here";
         Send body = new Send();
         body.setFrom(new From());
@@ -1210,7 +1210,7 @@ public class Program {
         body.getBcc().add(body_bcc_0);
         
         
-        sendController.createGenerateTheMailSendRequestAsync(body, new APICallBack<Object>() {
+        mailSendController.createGeneratethemailsendrequestAsync(body, new APICallBack<Object>() {
             public void onSuccess(HttpContext context, Object response) {
                 // TODO success callback handler
                 System.out.println(response.toString());

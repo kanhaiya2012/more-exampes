@@ -24,7 +24,7 @@ func main(){
     APIkey := "your api_key here"
     
     client := PepipostClient.NewPEPIPOST()
-	send := client.Send()
+	mailSend := client.MailSend()
 
 	setApikey := client.Configuration()
 	setApikey.SetApiKey(APIkey)
@@ -97,8 +97,8 @@ func main(){
     
     
     var err error
-    var result []string
-    result, err = send.CreateGenerateTheMailSendRequest(Body)
+    var result interface{}
+    result, err = mailSend.CreateGeneratethemailsendrequest(Body)
     
     if err != nil{
         //TODO: Use err variable here
@@ -134,7 +134,7 @@ func main(){
     APIkey := "your api_key here"
     
     client := PepipostClient.NewPEPIPOST()
-	send := client.Send()
+	mailSend := client.MailSend()
 
 	setApikey := client.Configuration()
 	setApikey.SetApiKey(APIkey)
@@ -201,8 +201,8 @@ func main(){
     
     
     var err error
-    var result []string
-    result, err = send.CreateGenerateTheMailSendRequest(Body)
+    var result interface{}
+    result, err = mailSend.CreateGeneratethemailsendrequest(Body)
     
     if err != nil{
         //TODO: Use err variable here
@@ -238,7 +238,7 @@ func main(){
     APIkey := "your api_key here"
     
     client := PepipostClient.NewPEPIPOST()
-	send := client.Send()
+	mailSend := client.MailSend()
 
 	setApikey := client.Configuration()
 	setApikey.SetApiKey(APIkey)
@@ -352,8 +352,8 @@ func main(){
     
     
     var err error
-    var result []string
-    result, err = send.CreateGenerateTheMailSendRequest(Body)
+    var result interface{}
+    result, err = mailSend.CreateGeneratethemailsendrequest(Body)
     
     if err != nil{
         //TODO: Use err variable here
@@ -389,7 +389,7 @@ func main(){
     APIkey := "your api_key here"
     
     client := PepipostClient.NewPEPIPOST()
-	send := client.Send()
+	mailSend := client.MailSend()
 
 	setApikey := client.Configuration()
 	setApikey.SetApiKey(APIkey)
@@ -650,8 +650,8 @@ func main(){
     
     
     var err error
-    var result []string
-    result, err = send.CreateGenerateTheMailSendRequest(Body)
+    var result interface{}
+    result, err = mailSend.CreateGeneratethemailsendrequest(Body)
     
     if err != nil{
         //TODO: Use err variable here
@@ -687,7 +687,7 @@ func main(){
     APIkey := "your api_key here"
     
     client := PepipostClient.NewPEPIPOST()
-	send := client.Send()
+	mailSend := client.MailSend()
 
 	setApikey := client.Configuration()
 	setApikey.SetApiKey(APIkey)
@@ -760,8 +760,8 @@ func main(){
     
     
     var err error
-    var result []string
-    result, err = send.CreateGenerateTheMailSendRequest(Body)
+    var result interface{}
+    result, err = mailSend.CreateGeneratethemailsendrequest(Body)
     
     if err != nil{
         //TODO: Use err variable here
@@ -797,7 +797,7 @@ func main(){
     APIkey := "your api_key here"
     
     client := PepipostClient.NewPEPIPOST()
-	send := client.Send()
+	mailSend := client.MailSend()
 
 	setApikey := client.Configuration()
 	setApikey.SetApiKey(APIkey)
@@ -912,8 +912,8 @@ func main(){
     
     
     var err error
-    var result []string
-    result, err = send.CreateGenerateTheMailSendRequest(Body)
+    var result interface{}
+    result, err = mailSend.CreateGeneratethemailsendrequest(Body)
     
     if err != nil{
         //TODO: Use err variable here
@@ -949,7 +949,7 @@ func main(){
     APIkey := "your api_key here"
     
     client := PepipostClient.NewPEPIPOST()
-	send := client.Send()
+	mailSend := client.MailSend()
 
 	setApikey := client.Configuration()
 	setApikey.SetApiKey(APIkey)
@@ -1088,8 +1088,8 @@ func main(){
     
     
     var err error
-    var result []string
-    result, err = send.CreateGenerateTheMailSendRequest(Body)
+    var result interface{}
+    result, err = mailSend.CreateGeneratethemailsendrequest(Body)
     
     if err != nil{
         //TODO: Use err variable here

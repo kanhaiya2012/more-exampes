@@ -21,7 +21,7 @@ api_key = 'your api_key here'
 
 client = PepipostClient.new(api_key: api_key)
 
-send_controller = client.send
+mail_send_controller = client.mail_send
 body = Send.new
 body.from = From.new
 body.from.email = 'hello@your-register-domain-with-pepipost'
@@ -93,8 +93,8 @@ body.bcc[0].email = 'random@gmail.com'
 
 
 begin
-  result = send_controller.create_generate_the_mail_send_request(body)
-  puts JSON.pretty_generate(result)
+  result = mail_send_controller.create_generatethemailsendrequest(body)
+  puts (result)
 rescue APIException => ex
   puts "Caught APIException: #{ex.message}"
 end
@@ -113,7 +113,7 @@ api_key = 'your api_key here'
 
 client = PepipostClient.new(api_key: api_key)
 
-send_controller = client.send
+mail_send_controller = client.mail_send
 body = Send.new
 body.from = From.new
 body.from.email = 'hello@your-register-domain-with-pepipost'
@@ -181,8 +181,8 @@ body.bcc[0].email = 'random@gmail.com'
 
 
 begin
-  result = send_controller.create_generate_the_mail_send_request(body)
-  puts JSON.pretty_generate(result)
+  result = mail_send_controller.create_generatethemailsendrequest(body)
+  puts (result)
 rescue APIException => ex
   puts "Caught APIException: #{ex.message}"
 end
@@ -201,7 +201,7 @@ api_key = 'your api_key here'
 
 client = PepipostClient.new(api_key: api_key)
 
-send_controller = client.send
+mail_send_controller = client.mail_send
 body = Send.new
 body.from = From.new
 body.from.email = 'hello@your-register-domain-with-pepipost'
@@ -314,8 +314,8 @@ body.bcc[0].email = 'random@gmail.com'
 
 
 begin
-  result = send_controller.create_generate_the_mail_send_request(body)
-  puts JSON.pretty_generate(result)
+  result = mail_send_controller.create_generatethemailsendrequest(body)
+  puts (result)
 rescue APIException => ex
   puts "Caught APIException: #{ex.message}"
 end
@@ -334,7 +334,7 @@ api_key = 'your api_key here'
 
 client = PepipostClient.new(api_key: api_key)
 
-send_controller = client.send
+mail_send_controller = client.mail_send
 body = Send.new
 body.from = From.new
 body.from.email = 'hello@your-register-domain-with-pepipost'
@@ -678,8 +678,8 @@ body.bcc[0].email = 'random@gmail.com'
 
 
 begin
-  result = send_controller.create_generate_the_mail_send_request(body)
-  puts JSON.pretty_generate(result)
+  result = mail_send_controller.create_generatethemailsendrequest(body)
+  puts (result)
 rescue APIException => ex
   puts "Caught APIException: #{ex.message}"
 end
@@ -698,7 +698,7 @@ api_key = 'your api_key here'
 
 client = PepipostClient.new(api_key: api_key)
 
-send_controller = client.send
+mail_send_controller = client.mail_send
 body = Send.new
 body.from = From.new
 body.from.email = 'hello@your-register-domain-with-pepipost'
@@ -767,8 +767,8 @@ body.bcc[0].email = 'random@gmail.com'
 
 
 begin
-  result = send_controller.create_generate_the_mail_send_request(body)
-  puts JSON.pretty_generate(result)
+  result = mail_send_controller.create_generatethemailsendrequest(body)
+  puts (result)
 rescue APIException => ex
   puts "Caught APIException: #{ex.message}"
 end
@@ -787,7 +787,7 @@ api_key = 'your api_key here'
 
 client = PepipostClient.new(api_key: api_key)
 
-send_controller = client.send
+mail_send_controller = client.mail_send
 body = Send.new
 body.from = From.new
 body.from.email = 'hello@your-register-domain-with-pepipost'
@@ -898,8 +898,8 @@ body.bcc[0].email = 'random@gmail.com'
 
 
 begin
-  result = send_controller.create_generate_the_mail_send_request(body)
-  puts JSON.pretty_generate(result)
+  result = mail_send_controller.create_generatethemailsendrequest(body)
+  puts (result)
 rescue APIException => ex
   puts "Caught APIException: #{ex.message}"
 end
@@ -918,7 +918,7 @@ api_key = 'your api_key here'
 
 client = PepipostClient.new(api_key: api_key)
 
-send_controller = client.send
+mail_send_controller = client.mail_send
 body = Send.new
 body.from = From.new
 body.from.email = 'hello@your-register-domain-with-pepipost'
@@ -1056,8 +1056,8 @@ body.bcc[0].email = 'random@gmail.com'
 
 
 begin
-  result = send_controller.create_generate_the_mail_send_request(body)
-  puts JSON.pretty_generate(result)
+  result = mail_send_controller.create_generatethemailsendrequest(body)
+  puts (result)
 rescue APIException => ex
   puts "Caught APIException: #{ex.message}"
 end
